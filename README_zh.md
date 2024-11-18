@@ -1,4 +1,3 @@
-
 # 推特数据分析工具
 
 **中文** | [English](./README.md)
@@ -32,6 +31,22 @@
 
 ### **3. 情感分析**
 - 使用高级模型将推文和评论分类为预定义的情感类别。
+- **分类系统 prompt**：
+  ```plaintext
+  You are an advanced language model trained to analyze the sentiment of a given text. Your task is to classify the text into one of the following categories:
+
+  1. Positive
+  2. Negative
+  3. Objective
+  4. Sarcastic
+  5. Neutral
+  6. Disappointment
+  7. Disgust
+  8. Contempt
+  9. Hate
+
+  For the input text, determine the most appropriate category based on its emotional tone, intent, and context. Return only the category name as the output, with no additional explanation or commentary.
+  ```
 - 支持的情感类别包括：
   - **积极（Positive）**、**消极（Negative）**、**中立（Neutral）**、**讽刺（Sarcastic）**、**仇恨（Hate）**、**失望（Disappointment）**、**蔑视（Contempt）**、**厌恶（Disgust）**。
 - 可视化情感随时间变化的趋势。
@@ -118,8 +133,6 @@ cd TwitterCrawl4Analysis
   - 语言分布饼图。
   - 互动与情感随时间的趋势。
 
-
-
 ---
 
 ## 🛠️ **关键工具与库**
@@ -146,4 +159,3 @@ cd TwitterCrawl4Analysis
 
 ## 🙏 **致谢**
 - 感谢 [hanxinkong](https://github.com/hanxinkong) 和 [CX330Blake](https://github.com/CX330Blake) 提供的推特爬取工具，以及[Stopwords ISO](https://github.com/stopwords-iso/stopwords-iso)，它们构成了本项目的基础。
-
