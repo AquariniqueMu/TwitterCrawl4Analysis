@@ -1,7 +1,3 @@
-Here’s the updated English README based on the changes made to the Chinese version:
-
----
-
 # Twitter Data Analysis Tool
 
 [中文](./README_zh.md) | **English**
