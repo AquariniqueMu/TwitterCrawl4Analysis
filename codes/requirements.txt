@@ -1,0 +1,17 @@
+selenium
+webdriver-manager
+requests
+rich
+easy-twitter-crawler
+requests-html
+matplotlib
+pandas
+numpy
+seaborn
+networkx
+wordcloud
+scikit-learn
+spacy
+jieba
+pytextrank
+stopwordsiso
